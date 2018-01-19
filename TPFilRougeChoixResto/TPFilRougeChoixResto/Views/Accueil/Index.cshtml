@@ -1,0 +1,79 @@
+﻿@using TPFilRougeChoixResto.Models
+@using TPFilRougeChoixResto.ViewModels
+@*Indique que le model lié à la vue est le model Resto*@
+@model AccueilViewModel 
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <
+    <div>
+        Je suis la vue index et j'utilise un ViewModel
+    </div>
+
+    @*<li>@ViewData["message"]</li>
+        <li>@(((DateTime)ViewData["date"]).ToString("dd/MM/yyyy"))</li>
+        <li>@(((Resto)ViewData["resto"]).Nom)</li>
+        <li>@(((Resto)ViewData["resto"]).Telephone)</li>*@
+    @*OU*@
+    @*<li>@ViewData["message"]</li>
+        <li>@(((DateTime)ViewData["date"]).ToString("dd/MM/yyyy"))</li>
+        @{
+            Resto resto = (Resto)ViewData["resto"];
+        }
+        <li>@resto.Nom</li>
+        <li>@resto.Telephone</li>*@
+
+    @*OU ENCORE : passage par viewmodel et helpers*@
+    <div>Je suis la vue index</div>
+@using (Html.BeginForm("Index", "Accueil", FormMethod.Post, new { target = "_blank" }))
+{
+    //indique le controleur et la méthode qui traitera le formulaire
+    @Html.TextBox("nom", Model.Resto.Nom, new {style = "color:red"})
+    @Html.TextBox("telephone", Model.Resto.Telephone, new {style = "color:blue"})
+    <br/>
+    @Html.Label("estMajeur", "Cochez la case si vous êtes majeur")
+    @Html.CheckBox("estMajeur", true)
+    <br/>
+    @Html.DropDownList("RestoChoisi", (SelectList) ViewBag.ListeDesRestos)
+    <input type="submit" value="Envoyer"/>
+}
+
+
+    @*ET*@
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Téléphone</th>
+        </tr>
+        @{
+            foreach (var resto in Model.ListeDesRestos)
+            {
+                <tr>
+                    <td>@resto.Nom</td>
+                    <td>@resto.Telephone</td>
+                </tr>
+            }
+        }
+    </table>
+
+
+</body>
+</html>
