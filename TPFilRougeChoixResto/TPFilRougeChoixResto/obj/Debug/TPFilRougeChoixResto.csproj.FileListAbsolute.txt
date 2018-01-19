@@ -1,0 +1,64 @@
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\TPFilRougeChoixResto.dll.config
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\TPFilRougeChoixResto.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\TPFilRougeChoixResto.pdb
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\EntityFramework.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\EntityFramework.SqlServer.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\Microsoft.Web.Infrastructure.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Helpers.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Mvc.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Razor.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.Deployment.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.Razor.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\EntityFramework.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\EntityFramework.SqlServer.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Razor.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.Deployment.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.Razor.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Helpers.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Mvc.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Razor.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Webpages.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Webpages.Deployment.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Webpages.Razor.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Helpers.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Mvc.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\obj\Debug\TPFilRougeChoixResto.csprojResolveAssemblyReference.cache
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\obj\Debug\TPFilRougeChoixResto.csproj.CoreCompileInputs.cache
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\obj\Debug\TPFilRougeChoixResto.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto\obj\Debug\TPFilRougeChoixResto.pdb
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\TPFilRougeChoixResto.dll.config
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\TPFilRougeChoixResto.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\TPFilRougeChoixResto.pdb
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\EntityFramework.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\EntityFramework.SqlServer.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\Microsoft.Web.Infrastructure.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Helpers.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Mvc.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Razor.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.Deployment.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.Razor.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\EntityFramework.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\EntityFramework.SqlServer.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Razor.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.Deployment.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Webpages.Razor.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Helpers.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\System.Web.Mvc.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Razor.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Webpages.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Webpages.Deployment.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Webpages.Razor.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Helpers.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\bin\fr\System.Web.Mvc.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\obj\Debug\TPFilRougeChoixResto.csprojResolveAssemblyReference.cache
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\obj\Debug\TPFilRougeChoixResto.csproj.CoreCompileInputs.cache
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\obj\Debug\TPFilRougeChoixResto.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto\obj\Debug\TPFilRougeChoixResto.pdb

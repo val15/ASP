@@ -1,0 +1,80 @@
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.Tests.dll.config
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.Tests.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.Tests.pdb
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\EntityFramework.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.Mvc.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.Razor.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.pdb
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.dll.config
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\EntityFramework.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.Mvc.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.Razor.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\System.Web.Mvc.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\System.Web.Razor.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\System.Web.WebPages.Razor.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\System.Web.WebPages.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\System.Web.WebPages.Deployment.resources.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\obj\Debug\TPFilRougeChoixResto.Tests.csprojResolveAssemblyReference.cache
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\obj\Debug\TPFilRougeChoixResto.Tests.csproj.CoreCompileInputs.cache
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\obj\Debug\TPFilRougeChoixResto.Tests.dll
+c:\users\val15\documents\visual studio 2017\Projects\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\obj\Debug\TPFilRougeChoixResto.Tests.pdb
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.Tests.dll.config
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.Tests.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.Tests.pdb
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\EntityFramework.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.Mvc.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.Razor.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.pdb
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.dll.config
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\EntityFramework.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.Mvc.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.Razor.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\System.Web.Mvc.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\System.Web.Razor.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\System.Web.WebPages.Razor.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\System.Web.WebPages.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\bin\Debug\fr\System.Web.WebPages.Deployment.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\obj\Debug\TPFilRougeChoixResto.Tests.csprojResolveAssemblyReference.cache
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\obj\Debug\TPFilRougeChoixResto.Tests.csproj.CoreCompileInputs.cache
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\obj\Debug\TPFilRougeChoixResto.Tests.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\TPFilRougeChoixResto.Tests\obj\Debug\TPFilRougeChoixResto.Tests.pdb

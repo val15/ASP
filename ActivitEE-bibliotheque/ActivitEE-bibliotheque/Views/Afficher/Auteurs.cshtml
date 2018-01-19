@@ -1,0 +1,33 @@
+﻿
+
+@using ActivitEE_bibliotheque.Models
+@{
+    ViewBag.Title = "Auteurs";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListeClients</title>
+</head>
+<body>
+<h2>ListeLivres</h2>
+<table>
+    <tr>
+        <th>Nom</th>
+    </tr>
+    @foreach (ActivitEE_bibliotheque.Models.Auteur auteur in (List<Auteur>)ViewData["Auteurs"])
+    {
+        <tr>
+            <td>@auteur.Nom</td>
+           
+        </tr>
+    }
+</table>
+</body>
+</html>
+
+
+

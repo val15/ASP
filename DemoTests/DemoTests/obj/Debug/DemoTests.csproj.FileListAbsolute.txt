@@ -1,0 +1,9 @@
+C:\prjVs\ASP\DemoTests\DemoTests\bin\DemoTests.dll.config
+C:\prjVs\ASP\DemoTests\DemoTests\bin\DemoTests.dll
+C:\prjVs\ASP\DemoTests\DemoTests\bin\DemoTests.pdb
+C:\prjVs\ASP\DemoTests\DemoTests\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\prjVs\ASP\DemoTests\DemoTests\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\prjVs\ASP\DemoTests\DemoTests\obj\Debug\DemoTests.csprojResolveAssemblyReference.cache
+C:\prjVs\ASP\DemoTests\DemoTests\obj\Debug\DemoTests.csproj.CoreCompileInputs.cache
+C:\prjVs\ASP\DemoTests\DemoTests\obj\Debug\DemoTests.dll
+C:\prjVs\ASP\DemoTests\DemoTests\obj\Debug\DemoTests.pdb
