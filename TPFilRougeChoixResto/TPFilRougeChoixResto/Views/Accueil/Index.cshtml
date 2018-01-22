@@ -43,7 +43,7 @@
 
     @*OU ENCORE : passage par viewmodel et helpers*@
     <div>Je suis la vue index</div>
-@using (Html.BeginForm("Index", "Accueil", FormMethod.Post, new { target = "_blank" }))
+@using (Html.BeginForm("Index", "Accueil", FormMethod.Post, new { target = "_blank" }))//enoi les données dans Accuei/Index
 {
     //indique le controleur et la méthode qui traitera le formulaire
     @Html.TextBox("nom", Model.Resto.Nom, new {style = "color:red"})

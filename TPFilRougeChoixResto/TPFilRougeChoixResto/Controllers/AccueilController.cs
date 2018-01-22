@@ -37,7 +37,7 @@ namespace TPFilRougeChoixResto.Controllers
                 new Resto { Id = 9, Nom = "Resto toro", Telephone = "555" },
             };
 
-            ViewBag.ListeDesRestos = new SelectList(listeDesRestos, "Id", "Nom",5);
+            ViewBag.ListeDesRestos = new SelectList(listeDesRestos, "Id", "Nom",5);//selection par défaut
             return View(vm);
             }
 
