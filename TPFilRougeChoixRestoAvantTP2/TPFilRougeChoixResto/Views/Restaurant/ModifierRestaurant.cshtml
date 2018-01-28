@@ -1,0 +1,46 @@
+﻿@model TPFilRougeChoixResto.Models.Resto
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script type="text/javascript" src="../../Scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../../Scripts/jquery-1.10.2.intellisense.js"></script>
+    <script type="text/javascript" src="../../Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/modernizr-2.6.2.js"></script>
+    <meta name="viewport" content="width=device-width"/>
+    <title>ModifierRestaurant</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <fieldset>
+                <legend>Modifier un restaurant</legend>
+
+                <div>
+                    @Html.LabelFor(model => model.Nom)
+                    @Html.TextBoxFor(model => model.Nom)
+                    @Html.ValidationMessageFor(model => model.Nom) @*pour valider le nom*@
+                </div>
+                <div>
+                    @Html.LabelFor(model => model.Telephone)
+                    @Html.TextBoxFor(model => model.Telephone)
+                    @Html.ValidationMessageFor(model => model.Telephone) @*pour valider le numero de telephone*@
+                </div>
+                <div>
+                    @Html.LabelFor(model => model.Email)
+                    @Html.TextBoxFor(model => model.Email)
+                    @Html.ValidationMessageFor(model => model.Email) @*pour valider l'e-mail*@
+                </div>
+
+                <br />
+                <input type="submit" value="Modifier" />
+            </fieldset>
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto.Tests\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.Tests.dll.config
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.Tests.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto.Tests\bin\Debug\TPFilRougeChoixResto.Tests.pdb
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\i\TPFilRougeChoixResto.Tests\Debug\TPFilRougeChoixResto.Tests.csprojResolveAssemblyReference.cache
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\i\TPFilRougeChoixResto.Tests\Debug\TPFilRougeChoixResto.Tests.csproj.CoreCompileInputs.cache
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\i\TPFilRougeChoixResto.Tests\Debug\TPFilRougeChoixResto.Tests.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\i\TPFilRougeChoixResto.Tests\Debug\TPFilRougeChoixResto.Tests.pdb
