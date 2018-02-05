@@ -1,0 +1,48 @@
+﻿@using TPFilRougeChoixResto.Models
+@using TPFilRougeChoixResto.ViewModels
+@*Indique que le model lié à la vue est le model Resto*@
+@model AccueilViewModel 
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    @*<div>
+        @ViewData["navigateur"]
+        <br />
+        @ViewData["utilisateur"]
+    </div>*@
+    <div>
+        Pret à choisit ?
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        <input type="submit" value="Créer un sondage" />
+    }
+    @*<a href="/Vote/Index/@ViewData["id"]">voter</a>*@
+    <ul>
+        <li><a href="/Restaurant/CreerRestaurant">Ajouter un résto</a></li>
+        <li><a href="/Restaurant/Index">Modifier les réstos</a></li>
+    </ul>
+
+
+</body>
+</html>

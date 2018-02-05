@@ -1,0 +1,7 @@
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto\bin\TPFilRougeChoixResto.dll.config
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto\bin\TPFilRougeChoixResto.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\b\TPFilRougeChoixResto\bin\TPFilRougeChoixResto.pdb
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\i\TPFilRougeChoixResto\Debug\TPFilRougeChoixResto.csprojResolveAssemblyReference.cache
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\i\TPFilRougeChoixResto\Debug\TPFilRougeChoixResto.csproj.CoreCompileInputs.cache
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\i\TPFilRougeChoixResto\Debug\TPFilRougeChoixResto.dll
+C:\prjVs\ASP\TPFilRougeChoixResto\.vs\TPFilRougeChoixResto\lut\0\i\TPFilRougeChoixResto\Debug\TPFilRougeChoixResto.pdb

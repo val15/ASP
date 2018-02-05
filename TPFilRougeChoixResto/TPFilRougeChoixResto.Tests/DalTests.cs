@@ -42,7 +42,7 @@ namespace TPFilRougeChoixResto.Tests
         public void ModifierRestaurant_CreationDUnNouveauRestaurantEtChangementNomEtTelephone_LaModificationEstCorrecteApresRechargement()
         {
             
-                dal.CreerRestaurant("La bonne fourchette", "0330257032");
+                dal.CreerRestaurant("La bonne fourchette", "0330257032","rjdj@hh.com");
                 List<Resto> restos = dal.ObtientTousLesRestaurants();
                 int id = restos.First(r => r.Nom == "La bonne fourchette").Id;
 

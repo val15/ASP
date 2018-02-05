@@ -1,0 +1,43 @@
+﻿@model TPFilRougeChoixResto.ViewModels.RestaurantVoteViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<div> Id utilisateur = @ViewData["id"]</div>
+<br/>
+<div>
+    @using (Html.BeginForm())
+    {
+
+        //>> LE "foreach" NE MARCHE PAS  <<
+        for (int i = 0; i < Model.ListeDesResto.Count; i++)
+        {
+    <div>
+        @Html.CheckBoxFor(m => m.ListeDesResto[i].EstSelectionne)
+         @Html.LabelFor(m => m.ListeDesResto[i].EstSelectionne, Model.ListeDesResto[i].NomEtTelephone)
+        
+
+
+        @Html.HiddenFor(m => m.ListeDesResto[i].Id) @*il faut envoyer l'id*@
+        @Html.HiddenFor(m => m.ListeDesResto[i].NomEtTelephone)
+    </div>
+        }
+        <font color="red">
+            @Html.ValidationMessageFor(model => model.ListeDesResto)
+
+        </font>
+        <br/>
+        <input type="submit" value="Valider le choix" style="margin-top: 20px;"/>
+    }
+</div>
+</body>
+</html>
