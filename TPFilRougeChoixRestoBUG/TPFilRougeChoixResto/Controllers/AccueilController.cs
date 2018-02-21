@@ -8,6 +8,7 @@ using TPFilRougeChoixResto.ViewModels;
 
 namespace TPFilRougeChoixResto.Controllers
 {
+    [Authorize]
     public class AccueilController : Controller
     {
         // GET: Accueil
@@ -28,14 +29,26 @@ namespace TPFilRougeChoixResto.Controllers
         {
 
             IDal dal = new Dal();
-           // ViewData["navigateur"] = Request.Browser.Browser;
-            var utilisateur = dal.ObtenirUtilisateur(Request.Browser.Browser);
-            if (utilisateur == null)
+            // ViewData["navigateur"] = Request.Browser.Browser;
+            //var utilisateur = dal.ObtenirUtilisateur(Request.Browser.Browser);
+
+              if (HttpContext.User.Identity.IsAuthenticated)//si l'utilisateur est authontifier
+            {
+                var utilisateur = dal.ObtenirUtilisateur(HttpContext.User.Identity.Name);//on le rcupere
+                if (utilisateur == null)
+                    return new HttpUnauthorizedResult();
+                // ViewData["utilisateur"] = utilisateur.Prenom;//
+                //ViewData["id"] = utilisateur.Id;
+                //int idSondage = dal.CreerUnSondage();
+                return RedirectToAction("Index", "Vote", new { id = utilisateur.Id });
+
+            }
+            else
+            {
                 return new HttpUnauthorizedResult();
-            // ViewData["utilisateur"] = utilisateur.Prenom;//
-            //ViewData["id"] = utilisateur.Id;
-            //int idSondage = dal.CreerUnSondage();
-            return RedirectToAction("Index", "Vote", new { id = utilisateur.Id });
+            }
+            //return View(viewModel);
+
         }
     }
 }

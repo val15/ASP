@@ -35,31 +35,31 @@ namespace TPFilRougeChoixResto.Tests
         }
 
 
-        [TestMethod]
-        public void Index_AvecSondageNormalMaisSansUtilisateur_RenvoiLeBonViewModelEtAfficheLaVue()
-        {
-            ViewResult view = (ViewResult)controleur.Index(idSondage);
+        //[TestMethod]
+        //public void Index_AvecSondageNormalMaisSansUtilisateur_RenvoiLeBonViewModelEtAfficheLaVue()
+        //{
+        //    ViewResult view = (ViewResult)controleur.Index(idSondage);
 
-            RestaurantVoteViewModel viewModel = (RestaurantVoteViewModel)view.Model;
-            Assert.AreEqual(3, viewModel.ListeDesResto.Count);
-            Assert.AreEqual(1, viewModel.ListeDesResto[0].Id);
-            Assert.IsFalse(viewModel.ListeDesResto[0].EstSelectionne);
-          //  Assert.AreEqual("Resto pinambour (0102030405)", viewModel.ListeDesResto[0].NomEtTelephone);
-        }
+        //    RestaurantVoteViewModel viewModel = (RestaurantVoteViewModel)view.Model;
+        //    Assert.AreEqual(3, viewModel.ListeDesResto.Count);
+        //    Assert.AreEqual(1, viewModel.ListeDesResto[0].Id);
+        //    Assert.IsFalse(viewModel.ListeDesResto[0].EstSelectionne);
+        //    Assert.AreEqual("Resto pinambour (0102030405)", viewModel.ListeDesResto[0].NomEtTelephone);
+        //}
 
-        [TestMethod]
-        public void Index_AvecSondageNormalAvecUtilisateurNayantPasVote_RenvoiLeBonViewModelEtAfficheLaVue()
-        {
-            dal.AjouterUtilisateur("Nico", "1234");
-            dal.AjouterUtilisateur("Jérémie", "1234");
+        //[TestMethod]
+        //public void Index_AvecSondageNormalAvecUtilisateurNayantPasVote_RenvoiLeBonViewModelEtAfficheLaVue()
+        //{
+        //    dal.AjouterUtilisateur("Nico", "1234");
+        //    dal.AjouterUtilisateur("Jérémie", "1234");
 
-            ViewResult view = (ViewResult)controleur.Index(idSondage);
+        //    ViewResult view = (ViewResult)controleur.Index(idSondage);
 
-            RestaurantVoteViewModel viewModel = (RestaurantVoteViewModel)view.Model;
-            Assert.AreEqual(3, viewModel.ListeDesResto.Count);
-            Assert.AreEqual(1, viewModel.ListeDesResto[0].Id);
-            Assert.IsFalse(viewModel.ListeDesResto[0].EstSelectionne);
-            Assert.AreEqual("Resto pinambour (0102030405)", viewModel.ListeDesResto[0].NomEtTelephone);
-        }
+        //    RestaurantVoteViewModel viewModel = (RestaurantVoteViewModel)view.Model;
+        //    Assert.AreEqual(3, viewModel.ListeDesResto.Count);
+        //    Assert.AreEqual(1, viewModel.ListeDesResto[0].Id);
+        //    Assert.IsFalse(viewModel.ListeDesResto[0].EstSelectionne);
+        //    Assert.AreEqual("Resto pinambour (0102030405)", viewModel.ListeDesResto[0].NomEtTelephone);
+        //}
     }
 }

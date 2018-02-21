@@ -130,7 +130,8 @@ namespace TPFilRougeChoixResto.Tests
         public void Authentifier_LoginKoMdpOk_AuthentificationKO()
         {
             dal.AjouterUtilisateur("Nouvel utilisateur", "12345");
-            Utilisateur utilisateur = dal.Authentifier("Nouvel", "12345");
+            var utilisateur = dal.Authentifier("Nouvel", "12345");
+          //  var utilisateur = dal.Authentifier("val", "0000");
 
             Assert.IsNull(utilisateur);
         }
@@ -142,7 +143,7 @@ namespace TPFilRougeChoixResto.Tests
 
             Assert.IsNull(utilisateur);
         }
-        
+
         //[TestMethod]
         //public void ADejaVote_AvecIdNonNumerique_RetourneFalse()
         //{
@@ -162,18 +163,18 @@ namespace TPFilRougeChoixResto.Tests
             Assert.IsFalse(pasVote);
         }
 
-        //[TestMethod]
-        //public void ADejaVote_UtilisateurAVote_RetourneTrue()
-        //{
-        //    int idSondage = dal.CreerUnSondage();
-        //    int idUtilisateur = dal.AjouterUtilisateur("Nouvel utilisateur", "12345");
-        //    dal.CreerRestaurant("La bonne fourchette", "0102030405");
-        //    dal.AjouterVote(idSondage, 1, idUtilisateur);
+        [TestMethod]
+        public void ADejaVote_UtilisateurAVote_RetourneTrue()
+        {
+            int idSondage = dal.CreerUnSondage();
+            int idUtilisateur = dal.AjouterUtilisateur("Nouvel utilisateur", "12345");
+            dal.CreerRestaurant("La bonne fourchette", "0102030405");
+            dal.AjouterVote(idSondage, 1, idUtilisateur);
 
-        //    bool aVote = dal.ADejaVote(idSondage, idUtilisateur.ToString());
+            bool aVote = dal.ADejaVote(idSondage, idUtilisateur);
 
-        //    Assert.IsTrue(aVote);
-        //}
+            Assert.IsTrue(aVote);
+        }
 
         [TestMethod]
         public void ObtenirLesResultats_AvecQuelquesChoix_RetourneBienLesResultats()

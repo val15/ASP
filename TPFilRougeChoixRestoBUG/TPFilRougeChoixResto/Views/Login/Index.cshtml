@@ -1,0 +1,47 @@
+﻿@model TPFilRougeChoixResto.ViewModels.UtilisateurViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<div>
+    @if (Model.Authentifie)
+    {
+        <h3>
+            Vous êtes déjà authentifié avec le login :
+            @Model.Utilisateur.Prenom
+        </h3>
+        @Html.ActionLink("Voulez-vous vous déconnecter ?", "Deconnexion")
+    }
+    else
+    {
+        <p>
+            Veuillez vous authentifier :
+        </p>
+        using (Html.BeginForm())
+        {
+            <div>
+                @Html.LabelFor(m => m.Utilisateur.Prenom)
+                @Html.TextBoxFor(m => m.Utilisateur.Prenom)
+                @Html.ValidationMessageFor(m => m.Utilisateur.Prenom)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.Utilisateur.MotDePasse)
+                @Html.PasswordFor(m => m.Utilisateur.MotDePasse)
+                @Html.ValidationMessageFor(m => m.Utilisateur.MotDePasse)
+            </div>
+            <input type="submit" value="Se connecter" />
+            <br />
+            @Html.ActionLink("Créer un compte", "CreerCompte")
+        }
+    }
+</div>
+</body>
+</html>

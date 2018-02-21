@@ -1,0 +1,55 @@
+﻿
+<h2>Index</h2>
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<script src="../../Scripts/modernizr-2.5.3.js" type="text/javascript"></script>
+<script src="../../Scripts/jquery-2.1.1.min.js" type="text/javascript"></script>
+Tournament    @Html.DropDownList("var1","Choose tournament")
+Team          @Html.DropDownList("var2","Choose team")
+Player        @Html.DropDownList("var3", "Choose player")
+<script type="text/javascript">
+    $(function () {
+
+        $("#var1").change(function () {
+            var name = $("#var1 :selected").text();
+            var url = 'Home/Team';
+            var data1 = { "name": name };
+            $.post(url, data1, function (data) {
+                var items = [];
+                items.push("<option value=" + 0 + ">" + "Choose team" + "</option>");
+                for (var i = 0; i < data.length; i++) {
+
+                    items.push("<option value=" + data[i].Value + ">" + data[i].Text + "</option>");
+                }
+                $("#var2").html(items.join(' '));
+
+
+            })
+        });
+
+        $("#var2").change(function () {
+            var name = $("#var2 :selected").text();
+            var url = 'Home/Player';
+            var data1 = { "name": name };
+            $.post(url, data1, function (data) {
+                var items = [];
+                items.push("<option value=" + 0 + ">" + "Choose Player" + "</option>");
+                for (var i = 0; i < data.length; i++) {
+                  
+                    items.push("<option value=" + data[i].Value + ">" + data[i].Text + "</option>");
+                }
+                $("#var3").html(items.join(' '));
+
+
+            })
+        });
+
+    });
+
+
+
+
+ </script>
+
+  
+
+   <input type="submit" value="submit" />

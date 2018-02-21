@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link type="text/css" rel="stylesheet" href="~/Content/supertuto.css" />
+</head>
+<body>
+<div id="entete">
+    <h1>Bienvenue sur Super tuto</h1>
+</div>
+
+<div id="main">
+    <div id="menu">
+        @RenderSection("Menu", required: false) @*required: false pour que la section ne soit pas obligatoir*@
+    </div>
+
+    <div id="contenu">
+        @RenderBody()
+    </div>
+</div>
+
+<div id="footer">
+    @if (IsSectionDefined("footer")) @*si il ya a une section footer personel dans la vue*@
+    {
+        @RenderSection("footer")
+    }
+    else /*si non*/
+    {
+        <text>&copy; @DateTime.Now.Year - Super site de tutoriels, contactez moi sur monmail@supersitetutoriels.com</text>
+    }
+</div>
+</body>
+</html>

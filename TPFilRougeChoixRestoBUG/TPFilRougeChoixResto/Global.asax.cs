@@ -16,7 +16,7 @@ namespace TPFilRougeChoixResto
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
-            IDatabaseInitializer<BddContext> init = new InitChoixResto();
+            IDatabaseInitializer<BddContext> init = new InitChoixRestoEtUnUtilisateur();
             Database.SetInitializer(init);
             init.InitializeDatabase(new BddContext());
         }

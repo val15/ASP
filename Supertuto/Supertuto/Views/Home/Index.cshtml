@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Accueil";
+}
+
+<h3 class="titre">Accueil du site de tutoriels</h3>
+<p class="contenu">Ici c'est la page d'accueil avec les news du site, etc.</p>
+
+@section Menu
+{
+    <ul>
+        <li class="selectionne">@Html.ActionLink("Accueil", "Index")</li>
+        <li>@Html.ActionLink("Liste des tutoriels", "Liste")</li>
+        <li>@Html.ActionLink("Forum", "Forum")</li>
+    </ul>
+}

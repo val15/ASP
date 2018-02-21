@@ -17,9 +17,10 @@ namespace TPFilRougeChoixResto.Models
 
         #region Utilisateur
         Utilisateur ObtenirUtilisateur(int id);
-       // Utilisateur ObtenirUtilisateur(string prenom);
-        Utilisateur ObtenirUtilisateur(string idStr);//bidoulle pour le TP2
-        Utilisateur CreeOuRecupere(string nom, string motDePasse);//bidoulle pour le TP2
+        Utilisateur ObtenirUtilisateur(string idString);
+        //Utilisateur ObtenirUtilisateur(string prenom);
+        //Utilisateur ObtenirUtilisateur(string idStr);//bidoulle pour le TP2
+      //  Utilisateur CreeOuRecupere(string nom, string motDePasse);//bidoulle pour le TP2
 
         int AjouterUtilisateur(string prenom, string motDePasse);
 
@@ -29,7 +30,8 @@ namespace TPFilRougeChoixResto.Models
 
         #region Sondage
 
-        bool ADejaVote(int idSondage, int id);
+        bool ADejaVote(int id, string idUtilisateur);
+        bool ADejaVote(int idSondage, int id);//biduille du TP 2
         int CreerUnSondage();
         bool SondageExist();
         int ObtenirIdDernierSondage();

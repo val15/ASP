@@ -59,39 +59,44 @@ namespace TPFilRougeChoixResto.Models
             return bdd.Utilisateurs.FirstOrDefault(utilisateur => utilisateur.Id == id);
         }
 
-        #region bidouiller pour le TP2
-        public Utilisateur ObtenirUtilisateur(string idStr)//bidoulle pour le TP2 affin de differention les utilisateur à partir du navigateur
+        public Utilisateur ObtenirUtilisateur(string idString)
         {
-            switch (idStr)
-            {
-                case "Chrome":
-                    return CreeOuRecupere("Chrome", "1234");
-                case "Firefox":
-                    return CreeOuRecupere("Firefox", "1234");
-                default:
-                    return CreeOuRecupere("Timéo", "1234");
-            }
+            int id;
+            if (int.TryParse(idString, out id))
+                return ObtenirUtilisateur(id);
+            return null;
         }
 
-        public Utilisateur CreeOuRecupere(string nom, string motDePasse)
-        {
-            Utilisateur utilisateur = Authentifier(nom, motDePasse);
-            if (utilisateur == null)
-            {
-                int id = AjouterUtilisateur(nom, motDePasse);
-                return ObtenirUtilisateur(id);
-            }
-            return utilisateur;
-        }
+        #region bidouiller pour le TP2
+        //public Utilisateur ObtenirUtilisateur(string idStr)//bidoulle pour le TP2 affin de differention les utilisateur à partir du navigateur
+        //{
+        //    switch (idStr)
+        //    {
+        //        case "Chrome":
+        //            return CreeOuRecupere("Chrome", "1234");
+        //        case "Firefox":
+        //            return CreeOuRecupere("Firefox", "1234");
+        //        default:
+        //            return CreeOuRecupere("Timéo", "1234");
+        //    }
+        //}
+
+        //public Utilisateur CreeOuRecupere(string nom, string motDePasse)
+        //{
+        //    Utilisateur utilisateur = Authentifier(nom, motDePasse);
+        //    if (utilisateur == null)
+        //    {
+        //        int id = AjouterUtilisateur(nom, motDePasse);
+        //        return ObtenirUtilisateur(id);
+        //    }
+        //    return utilisateur;
+        //}
 
 
         #endregion
 
 
-        //public Utilisateur ObtenirUtilisateur(string prenom)
-        //{
-        //    return bdd.Utilisateurs.FirstOrDefault(utilisateur => utilisateur.Prenom == prenom);
-        //}
+        
 
         public Utilisateur Authentifier(string prenom, string motDePasse)
         {
@@ -115,23 +120,23 @@ namespace TPFilRougeChoixResto.Models
 
         #region Sondages
 
-        //public bool ADejaVote(int id, string idUtilisateur)
-        //{
-        //    var sondage = bdd.Sondages.FirstOrDefault(s => s.Id == id);
-        //    if (sondage == null)
-        //        return false;
-        //    else
-        //    {
-        //        var votes = bdd.Votes.ToList();//on prend la liste de vote 
-        //        var utilisateurExiste = votes.FirstOrDefault(v => v.Utilisateur.Id.ToString() == idUtilisateur);
-        //        if (utilisateurExiste == null)
-        //            return false;
-        //        else
-        //        {
-        //            return true;
-        //        }
-        //    }
-        //}
+           public bool ADejaVote(int id, string idUtilisateur)
+           {
+               var sondage = bdd.Sondages.FirstOrDefault(s => s.Id == id);
+               if (sondage == null)
+                   return false;
+               else
+               {
+                   var votes = bdd.Votes.ToList();//on prend la liste de vote 
+                   var utilisateurExiste = votes.FirstOrDefault(v => v.Utilisateur.Id.ToString() == idUtilisateur);
+                   if (utilisateurExiste == null)
+                       return false;
+                   else
+                   {
+                       return true;
+                   }
+               }
+           }
 
         public bool ADejaVote(int idSondage, int id)//pour la bidouille du TP2
         {
